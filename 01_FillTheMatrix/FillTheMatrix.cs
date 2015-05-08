@@ -4,11 +4,24 @@
  * Write two programs that fill and print a matrix of size N x N. 
  * Filling a matrix in the regular pattern (top to bottom and left to right) is boring. 
  * Fill the matrix as described in both patterns below
+ * Example 1:
+ * 1       6       11      16      21
+ * 2       7       12      17      22
+ * 3       8       13      18      23
+ * 4       9       14      19      24
+ * 5       10      15      20      25
+ * Example 2:
+ * 1       10      11      20      21
+ * 2       9       12      19      22
+ * 3       8       13      18      23
+ * 4       7       14      17      24
+ * 5       6       15      16      25
+ * 
  */
 
 class FillTheMatrix
 {
-    private static void transposeMatrix(int[,] matrix)
+    private static void TransposeMatrix(int[,] matrix)
     {
         int size = matrix.GetLength(0);
         for (int i = 0; i < size; i++)
@@ -58,15 +71,15 @@ class FillTheMatrix
                 matrix[i, j] = i * size + j + 1;
         
         //transpose in-place
-        transposeMatrix(matrix);
+        TransposeMatrix(matrix);
         PrintSquareMatrix(matrix);
 
         Console.WriteLine();
 
         //transpose again to restore the original matrix
-        transposeMatrix(matrix);
+        TransposeMatrix(matrix);
         ReverseEvenRows(matrix);
-        transposeMatrix(matrix);
+        TransposeMatrix(matrix);
         PrintSquareMatrix(matrix);
     }
 }
