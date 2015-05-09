@@ -5,6 +5,8 @@ VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01_FillTheMatrix", "01_FillTheMatrix\01_FillTheMatrix.csproj", "{83015BB9-0B0E-4410-9FC3-9026C531159C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02_MaximalSum", "02_MaximalSum\02_MaximalSum.csproj", "{DD8374BE-66C0-4E59-B327-03BE86EC62AA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{83015BB9-0B0E-4410-9FC3-9026C531159C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{83015BB9-0B0E-4410-9FC3-9026C531159C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{83015BB9-0B0E-4410-9FC3-9026C531159C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD8374BE-66C0-4E59-B327-03BE86EC62AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD8374BE-66C0-4E59-B327-03BE86EC62AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD8374BE-66C0-4E59-B327-03BE86EC62AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD8374BE-66C0-4E59-B327-03BE86EC62AA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
