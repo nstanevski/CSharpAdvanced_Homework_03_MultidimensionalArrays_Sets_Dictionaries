@@ -20,8 +20,11 @@ class CollectTheCoins
 {
     private static bool CoinFound(List<char>[] board, int rowInd, int colInd)
     {
-        List<char> row = board[rowInd];
-        return row[colInd] == '$' ? true : false;
+        if(board[rowInd][colInd] == '$'){
+            board[rowInd][colInd] = '*'; //mark as collected coin
+            return true;
+        }
+        return false;
     }
 
     static void Main()
