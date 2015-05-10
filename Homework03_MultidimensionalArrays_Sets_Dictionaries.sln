@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06_CountSymbols", "06_Count
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07_PhoneBook", "07_PhoneBook\07_PhoneBook.csproj", "{EFE9A654-A0A0-49FF-B8BF-A07D8EA7C348}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08_NightLife", "08_NightLife\08_NightLife.csproj", "{3F34F677-7AC8-4F83-A403-F2C2C777A680}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{EFE9A654-A0A0-49FF-B8BF-A07D8EA7C348}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EFE9A654-A0A0-49FF-B8BF-A07D8EA7C348}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EFE9A654-A0A0-49FF-B8BF-A07D8EA7C348}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F34F677-7AC8-4F83-A403-F2C2C777A680}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F34F677-7AC8-4F83-A403-F2C2C777A680}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F34F677-7AC8-4F83-A403-F2C2C777A680}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F34F677-7AC8-4F83-A403-F2C2C777A680}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
