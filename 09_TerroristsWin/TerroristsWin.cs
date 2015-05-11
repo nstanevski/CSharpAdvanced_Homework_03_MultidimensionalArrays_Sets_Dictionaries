@@ -2,6 +2,8 @@
 using System.Text;
 using System.Text.RegularExpressions;
 
+//PROBLEM NOT FINISHED
+
 class TerroristsWin
 {
     private static int CalcBombPower(string bomb)
